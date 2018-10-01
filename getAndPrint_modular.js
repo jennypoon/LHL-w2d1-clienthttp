@@ -5,7 +5,7 @@ function getAndPrintHTML (options) {
 
 var dataString = "";
 //callback responses
-https.get(requestOptions, function (response) {
+https.get(options, function (response) {
 //encoding of recieving data
   response.setEncoding('utf8');
 //when data received
